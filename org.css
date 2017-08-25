@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+html,body {
+	width: 100%;
+  padding: 0px;
+  margin: 0;
+}
+
+.nav {
+  padding: 10px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  background: #000000;
+}
+
+.nav ul{
+	text-align: center;
+	position: relative;
+	list-style-type: none;
+	display: inline-block;
+}
+
+.nav li{
+	float:left;
+}
+
+#link {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+}
+
+#link:hover {
+  background-color: #ffffff;
+  color: #000000;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#heading {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	animation: 2s ease-out 0s 1 slideInFromLeft;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.org{
+	text-align: center;
+}
+
+.org ul{
+     width: 90%;
+	list-style-type: none;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+}
+
+.org li{
+	float: left;
+	padding-right: 4%;
+}
+
+.cap{
+	display: block;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+.org img{
+	animation: 3s linear 0s 1 fadeIn;
+	width: 250px;
+	height: 250px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
