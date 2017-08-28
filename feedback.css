@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Roboto:100');
+
+html,body {
+  width: 100%;
+  padding: 0px;
+  margin: 0;
+  background-color: #f8fcf2;
+}
+
+.nav {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  background: #173e43;
+  animation: 1s linear 0s 1 fadeInDown;
+}
+
+.nav ul{
+  text-align: center;
+  position: relative;
+  list-style-type: none;
+  display: inline-block;
+}
+
+.nav li{
+  float:left;
+}
+
+#link {
+  transition: 0.4s;
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-decoration: none;
+}
+
+#link:hover {
+  background-color: #3fb0ac;
+  color: white;
+  font-weight: bolder;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#heading {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  animation: 2s ease-in-out 0s 1 fadeIn;
+}
+
+form span
+{
+	text-align: center;
+	display: block;
+	padding: 0;
+	font-size: 180%;
+	font-family: "Roboto",sans-serif;
+	font-weight: bold;
+}
+
+form label input 
+{
+	font-family: 'Roboto', sans-serif;
+	background: #d1d3d4;
+	border: 2px solid #b6d8cf;
+	color: #315f52;
+	display: inline-flex;
+	font-size: 160%;
+	line-height: 5%;
+	justify-content: center;
+	margin: 1% 31%;
+	padding: 0.5% 1%;
+	width: 40%;
+}
+
+form label textarea {
+	background: #d1d3d4;
+	border: 2px solid #b6d8cf;
+	color: #315f52;
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 160%;
+	height: 250px;
+	line-height: 120%;
+	overflow: auto;
+	padding: 1% 1%;
+	margin: 1% 31%;
+	resize: none;
+	width: 40%;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 1% 2%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 150%;
+    float: right;
+    margin: 2% 26.5% 2% 0;
+}
+
+input[type=submit:hove] {
+	background-color: blue;
+}
